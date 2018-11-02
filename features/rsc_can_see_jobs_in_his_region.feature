@@ -20,7 +20,7 @@ Feature: RSC Dashboard
     Scenario: RSC can see the dashboard in swedish
         Given I am on the dashboard page
         Then I should see "RSC Dashboard"
-        And I click the "Svenska" link
+        And I click on "Svenska" link
         Then I should see "Läkare" within the "jobs" section
         And I should see "Sjuksköterska" within the "jobs" section
         And I should see "Undersköterska" within the "jobs" section

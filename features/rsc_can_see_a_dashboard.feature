@@ -1,3 +1,4 @@
+@javascript
 Feature: RSC Dashboard
     As a RSC,
     In order to create and modify relevant informations to be sent out to RSC,
@@ -14,6 +15,6 @@ Feature: RSC Dashboard
         Given I am on the dashboard page
         Then I should see "RSC Dashboard"
         And I click on "Svenska"
-        Then I should see "Jobb" within the "#sidebar" section
-        And I should see "Sjukhus" within the "#sidebar" section
-        And I should see "Bemanningsföretag" within the "#sidebar" section
+        Then I should see "Jobb" within the "sidebar" section
+        And I should see "Sjukhus" within the "sidebar" section
+        And I should see "Bemanningsföretag" within the "sidebar" section

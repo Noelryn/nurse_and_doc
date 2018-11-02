@@ -33,6 +33,6 @@ Given("the following jobs exist in the database") do |table|
   end
 end
 
-Then("stop") do
-  binding.pry
-end
+# Then("stop") do
+#   binding.pry
+# end
